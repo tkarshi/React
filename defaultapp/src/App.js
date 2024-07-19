@@ -1,12 +1,7 @@
 import "./App.css";
+// import AppImage from "./Components/AppImage"; //default component export way
+import { AppImage, TestImage } from "./Components/AppImage"; // named export way of component import
 
-//create component
-
-function AppImage(props) {
-  return (
-    <img style={{ marginLeft: "10px", marginTop: "5px" }} src={props.url} />
-  );
-}
 function App() {
   return (
     <div className="App">
