@@ -1,1 +1,14 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 
+.App {
+  border: 1px solid black;
+  display: flex;
+  height: 100vh; /*display full screen*/
+  justify-content: center; /*In the row being center*/
+  align-items: center; /*In the body being center*/
+  flex-direction: column;
+}
